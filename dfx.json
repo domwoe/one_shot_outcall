@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "one_shot_outcall_backend": {
+      "candid": "src/one_shot_outcall_backend/one_shot_outcall_backend.did",
+      "package": "one_shot_outcall_backend",
+      "type": "rust"
+    },
+    "one_shot_outcall_frontend": {
+      "dependencies": [
+        "one_shot_outcall_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/one_shot_outcall_frontend/src/index.html"
+      },
+      "source": [
+        "src/one_shot_outcall_frontend/assets",
+        "dist/one_shot_outcall_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
