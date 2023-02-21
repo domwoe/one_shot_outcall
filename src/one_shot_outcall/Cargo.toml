@@ -1,5 +1,5 @@
 [package]
-name = "one_shot_outcall_backend"
+name = "one_shot_outcall"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,6 +9,6 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.8.2"
-ic-cdk = "0.6.0"
-ic-cdk-macros = "0.6.0"
+candid = "0.8.4"
+ic-cdk = "0.7.0"
+ic-cdk-macros = "0.6.8"

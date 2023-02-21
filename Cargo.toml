@@ -1,4 +1,4 @@
 [workspace]
 members = [
-    "src/one_shot_outcall_backend",
+    "src/one_shot_outcall",
 ]

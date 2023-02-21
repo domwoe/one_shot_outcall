@@ -1,0 +1,3 @@
+service : {
+    "one_shot_outcall": () -> ();
+}
